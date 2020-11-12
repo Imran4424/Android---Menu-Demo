@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
             default:
                 return  false;
         }
-        Toast.makeText().getView().setBackground();
     }
 
     @Override
