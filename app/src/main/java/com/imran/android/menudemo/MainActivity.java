@@ -31,12 +31,13 @@ public class MainActivity extends AppCompatActivity {
                 return true;
 
             case R.id.help:
-                Toast.makeText(this, "Help", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Help", Toast.LENGTH_LONG).show();
                 return true;
 
             default:
                 return  false;
         }
+        Toast.makeText().getView().setBackground();
     }
 
     @Override
